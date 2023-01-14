@@ -15,10 +15,11 @@ public class ColorChange : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.C))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             // Change the 'color' property of the 'Sprite Renderer'
             sprite.color = new Color(1, 0, 0, 1);
         }
+
     }
 }
