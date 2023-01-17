@@ -11,7 +11,7 @@ public class ColourCrash : MonoBehaviour
         sr = GetComponent<SpriteRenderer>();
     }
 
-    void OnCollisionEnter2D(Collision2D collision)
+    void OnCollisionEnter(Collision collision)
     {//whenever we hit something
         sr.color = new Color(2, 0, 0);//set this object's red color to 200 percent
     }
